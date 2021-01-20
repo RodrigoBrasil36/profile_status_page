@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./images/bg-pattern-top.svg")no-repeat left,url("./images/bg-pattern-bottom.svg")no-repeat right top,hsl(185, 75%, 39%);
+
+    font-family: Kumbh Sans,sans-serif;
+    
+    height: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    margin-top: 20%;
+    padding: 90px;
+    width: 10cm;
+    border-radius: 0.25cm;
+
+
+    background: white;
+}
+
