@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
   <main>
-    <section class="profile-info">
-     <div class="info">
-       <span class="name">Victor Crest</span>
-       <span class="age">26</span>
-       <p class="country">London</p>
-     </div>
-   </section>
-   <section class="profile-engage">
-     <table class="profile-status">
-        <thead>
-          <tr>
-            <th>80k</th>
-            <th>803k</th>
-            <th>1.4k</th>
-          </tr>
-       </thead>
-       <tbody>
-         <tr>
-           <td>Followers</td>
-           <td>Likes</td>
-           <td>Phothos</td>
-         </tr>
-       </tbody>
-      </table>
+    <section class="cartao">
+      <div class="fotos capa">
+        <img src="./images/bg-pattern-card.svg" alt="foto capa card">
+        <img src="./images/image-victor.jpg" alt="foto perfil">
+      </div>
+      <div class="iformacao-user">
+        <h3 class="name"><strong>Victor Crest</strong></h3>
+        <span class="age">26</span>
+      </div>
+      <section class="footer-card">
+        <table class="user-status">
+          <thead>
+            <tr>
+              <th>80k</th>
+              <th>803k</th>
+              <th>1.4k</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Followers</td>
+              <td>Likes</td>
+              <td>Phothos</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </section>
-  </main> 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Rodrigo B</a>.
-  </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Rodrigo B</a>.
+    </div>
+  </footer>
 </body>
+
 </html>
