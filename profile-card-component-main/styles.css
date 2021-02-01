@@ -98,3 +98,13 @@ main{
     font-size: 12px;
     color: hsl(0, 0%, 59%);     
 }
+@media(max-width:400px){
+    body{
+        background-position: -900% -150%, 1200% 180%;
+        background-size: 95%;
+    }
+    .cartao{
+        height: 23.375rem;
+        width: 20.5rem;
+    }
+}
